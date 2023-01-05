@@ -4,7 +4,6 @@
  * _puts_recursion - print a string, followed by a new line.
  * @s:string
  * Return:void
- * On error, -1 is returned, and error is set appropriately.
  */
 void _puts_recursion(char *s)
 {
