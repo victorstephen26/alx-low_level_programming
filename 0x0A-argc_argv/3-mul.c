@@ -7,19 +7,23 @@
  * @argc: count
  * @argv: vector
  * Return: 0 successful
+ * On error retuturn 1
  */
 int main(int argc, char **argv)
 {
-	int arr_len = argc - 1;
+	int n, m, diff;
 
-	if (arr_len != 2)
+	if (argc != 3)
 	{
-		puts("Error");
-
+		printf("Error\n");
 		return (1);
 	}
 
-	printf("%d\n", _atoi(argv[1]) * _atoi(argv[2]));
+	n = atoi(argv[1]);
+	m = atoi(argv[2]);
+	diff = n * m;
+
+	printf("%i\n", diff);
 
 	return (0);
 }
