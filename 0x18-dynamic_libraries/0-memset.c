@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * _memset - Fills memory with a constant byte.
- * @s: The memory area on wich we will store b.
- * @b: The value to store.
- * @n: The length of the memory area
- * Return: s.
+ * _memset - This is my function copy the number the character to S
+ * @s: This is my entry and return
+ * @b: This is the character to copy
+ * @n: This is the number of Bytes
+ * Return: This is my result and Return S
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int a;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
+	for (a = 0; a < n ; a++)
+	{
+		s[a] = b;
+	}
 	return (s);
 }
