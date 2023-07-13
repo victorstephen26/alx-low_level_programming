@@ -1,6 +1,6 @@
 ## Searching Algorithms in C
 
-![]<img src="(https://en.wikipedia.org/wiki/File:Hash_table_3_1_1_0_1_0_0_SP.svg)" height="400" width="2000">
+<img src="https://en.wikipedia.org/wiki/File:Hash_table_3_1_1_0_1_0_0_SP.svg" height="400" width="2000">
 
 ### Requirements
 ## General
